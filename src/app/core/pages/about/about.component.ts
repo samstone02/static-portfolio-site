@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'about',
+  selector: 'app-about',
+  standalone: true,
   templateUrl: './about.component.html',
-  styleUrl: './about.component.css'
+  styleUrl: './about.component.css',
+  imports: []
 })
 export class AboutComponent {
   title = 'angular_portfolio_site';

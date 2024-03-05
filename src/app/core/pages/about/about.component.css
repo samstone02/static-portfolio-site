@@ -1,0 +1,11 @@
+.app-core--page--about {
+  background-color: cadetblue;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.app-core--page--about--p-1 {
+  background-color: yellow;
+  margin-top: 2em;
+}
