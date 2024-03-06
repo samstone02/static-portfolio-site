@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { SideTabComponent } from '../common/nav-tab/nav-tab.component';
 
@@ -7,7 +7,8 @@ import { SideTabComponent } from '../common/nav-tab/nav-tab.component';
   standalone: true,
   imports: [RouterOutlet, RouterModule, SideTabComponent],
   templateUrl: './core.component.html',
-  styleUrl: './core.component.css'
+  styleUrl: './core.component.css',
+  encapsulation: ViewEncapsulation.None
 })
 export class CoreComponent {
 
