@@ -2,17 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Unbounded:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&family=Stint+Ultra+Condensed&display=swap');
 
 :root {
-    --primary-color: rgb(255, 238, 207);
+    --primary-color: rgb(217, 244, 241);
+    --primary-color-transparent: rgba(255, 238, 207, 0.9);
     --secondary-color: rgb(0, 0, 0);
+    --tab-highlight-color: rgb(236, 178, 152);
 }
 
 * {
     padding: 0;
     margin: 0;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 400;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-weight: 500;
     font-style: normal;
 }
 
