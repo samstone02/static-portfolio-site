@@ -88,3 +88,16 @@ app-hero>div {
     top: calc(50px + 8em); /* Distance from from top of page to bottom of dec block 3 */
     transform: translateX(20em);
 }
+
+.app-hero--decorative-block-5 {
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    box-shadow:
+        10px 10px 25px var(--secondary-color-40-percent) inset,
+        -10px -10px 25px var(--tertiary-color-40-percent) inset;
+
+    width: 8em;
+    height: 8em;
+    top: 220px;
+    transform: translateX(23em);
+}
