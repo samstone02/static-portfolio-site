@@ -1,8 +1,8 @@
 app-project-summary {
-    background-color: var(--secondary-color-10-percent);
+    /* background-color: var(--secondary-color-10-percent); */
     box-shadow:
-        10px 10px 25px var(--quaternary-color-10-percent),
-        -10px -10px 25px var(--tertiary-color-10-percent);;
+        10px 10px 25px var(--secondary-color-20-percent),
+        -10px -10px 25px var(--quaternary-color-20-percent);
     border-radius: 15px;
 
     display: block;

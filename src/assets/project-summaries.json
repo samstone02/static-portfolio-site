@@ -1,0 +1,10 @@
+[
+    {
+        "title": "Online Ordering",
+        "company": "Little Caesars"
+    [when]="'May 2023 - Present'"
+    [skills]="['C#', '.NET', 'ASP.NET', 'SQL Server', 'MongoDB']"
+    [project_link]="'https://littlecaesars.com'"
+    [description]="'Known internally as Onlo, this is the backend for the Little Caesars online ordering platform which has become a core part of the business over the years. Onlo encomposes many individual projects of varying sizes from monolithic legacy servers to modern microservice-oriented architecture. At Little Caesars, I have handled code regarding customer accounts, payment processing, and store/cloud communication. I have maintained the existing codebase, implemented new functionality for existing APIs, created new APIs based on the REST standard, solved annoying bugs, and written unit tests with frameworks like xUnit.'"
+    }
+]

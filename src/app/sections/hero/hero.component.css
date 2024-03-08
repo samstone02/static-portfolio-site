@@ -1,20 +1,90 @@
 app-hero {
-    background-color: var(--secondary-color-50-percent);
+    background-color: var(--text-color-light);
 
     display: block;
     width: 100vw;
+    height: 80vh;
 }
 
 app-hero>div {
+    display: flex;
+    flex-direction: row;
     width: var(--main-content-width);
     margin: auto;
 }
 
-app-hero>div>h1 {
+.app-hero--left {
+    width: 60%;
+    padding-top: 5em;
+}
+
+.app-hero--title {
     color: var(--text-color-dark);
 }
 
-app-hero>div>img {
-  width: 250px;
-  /* height: 250px;   */
+.app-hero--about {
+    color: var(--text-color-dark);
+}
+
+.app-hero--right {
+    
+    /* display: block; */
+    /* width: 90%; */
+    /* margin: auto; */
+}
+
+.app-hero--headshot {
+    width: 250px;
+}
+
+.app-hero--decorative-block {
+    position: absolute;
+}
+
+.app-hero--decorative-block-1 {
+    background-color: var(--primary-color);
+    border-radius: 25px;
+
+    width: 70em;
+    height: 70em;
+    top: -40em;
+}
+
+.app-hero--decorative-block-2 {
+    background-color: var(--secondary-color-40-percent);
+    border-radius: 15px;
+    box-shadow:
+        10px 10px 25px var(--quaternary-color-40-percent),
+        -10px -10px 25px var(--tertiary-color-40-percent);
+
+    width: 25em;
+    height: 12em;
+    top: 380px;
+    transform: translateX(-8em);
+}
+
+.app-hero--decorative-block-3 {
+    background-color: var(--tertiary-color-40-percent);
+    border-radius: 15px;
+    box-shadow:
+        10px 10px 25px var(--quaternary-color-40-percent),
+        -10px -10px 25px var(--secondary-color-40-percent);
+
+    width: 8em;
+    height: 8em;
+    top: 50px;
+    transform: translateX(4.5em);
+}
+
+.app-hero--decorative-block-4 {
+    background-color: var(--quaternary-color-40-percent);
+    border-radius: 15px;
+    box-shadow:
+        10px 10px 25px var(--secondary-color-40-percent),
+        -10px -10px 25px var(--tertiary-color-40-percent);
+
+    width: 40em;
+    height: 24.5em;
+    top: calc(50px + 8em); /* Distance from from top of page to bottom of dec block 3 */
+    transform: translateX(20em);
 }

@@ -2,4 +2,9 @@ app-projects {
     display: block;
     width: var(--main-content-width);
     margin: auto;
+    margin-top: 64px;
+}
+
+app-projects>h2 {
+    padding-bottom: 16px;
 }

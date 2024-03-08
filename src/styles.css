@@ -8,12 +8,17 @@
 :root {
     --primary-color: rgb(18, 16, 14);
     --secondary-color: rgb(202, 5, 77);
-    --secondary-color-10-percent: rgba(202, 5, 77, 0.1);
-    --secondary-color-50-percent: rgba(202, 5, 77, 0.7);
+    --secondary-color-20-percent: rgba(202, 5, 77, 0.2);
+    --secondary-color-40-percent: rgba(202, 5, 77, 0.4);
     --tertiary-color: rgb(242, 165, 65);
-    --tertiary-color-10-percent: rgba(242, 165, 65, 0.1);
+    --tertiary-color-20-percent: rgba(242, 165, 65, 0.2);
+    --tertiary-color-40-percent: rgba(242, 165, 65, 0.4);
     --quaternary-color: rgb(31, 211, 79);
-    --quaternary-color-10-percent: rgba(31, 211, 79, 0.1);
+    --quaternary-color-20-percent: rgba(31, 211, 79, 0.2);
+    --quaternary-color-40-percent: rgba(31, 211, 79, 0.4);
+
+    --primary-color: rgb(18, 16, 14);
+
     --text-color-light: rgb(255, 251, 255);
     --text-color-light-60-percent:  rgba(255, 251, 255, 0.5);
     --text-color-light-90-percent:  rgba(255, 251, 255, 0.8);

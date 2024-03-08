@@ -1,21 +1,23 @@
-<div class="app-project-summary--header">
-    <div class="app-project-summary--header--top">
-        <div class="app-project-summary--header--title-and-company">
-            <h3>{{title}}</h3>
-            <h4 class="app-project-summary--header--title-and-company--company">
-                <span class="app-project-summary--header--title-and-company--company--commat">&commat;</span>
-                &nbsp;{{company}}
-            </h4>
+<div class="app-project-summary--background">
+    <div class="app-project-summary--header">
+        <div class="app-project-summary--header--top">
+            <div class="app-project-summary--header--title-and-company">
+                <h3>{{title}}</h3>
+                <h4 class="app-project-summary--header--title-and-company--company">
+                    <span class="app-project-summary--header--title-and-company--company--commat">&commat;</span>
+                    &nbsp;{{company}}
+                </h4>
+            </div>
+            <p class="app-project-summary--header--when">{{when}}</p>
         </div>
-        <p class="app-project-summary--header--when">{{when}}</p>
+        <h4 class="app-project-summary--header--skills">
+            <span *ngFor="let skill of skills; first as isFirst">
+                <span *ngIf="!isFirst;">|</span> {{skill}}
+            </span>
+        </h4>
     </div>
-    <h4 class="app-project-summary--header--skills">
-        <span *ngFor="let skill of skills; first as isFirst">
-            <span *ngIf="!isFirst;">|</span> {{skill}}
-        </span>
-    </h4>
-</div>
-<p class="app-project-summary--description">{{description}}</p>
-<div class="app-project-summary--link" >
-    <a href={{project_link}}  target="_blank">{{project_link}}</a>
+    <p class="app-project-summary--description">{{description}}</p>
+    <div class="app-project-summary--link" >
+        <a href={{project_link}}  target="_blank">{{project_link}}</a>
+    </div>    
 </div>
