@@ -9,7 +9,7 @@
     },
     {
         "title": "SAIO",
-        "companny": "Eastern Michigan University",
+        "company": "Eastern Michigan University",
         "when": "September 2023 - December 2023",
         "skills": ["JavaScript", "React", "HTML", "CSS", "Python", "FastAPI", "MongoDB"],
         "link": "https://github.com/COSC481W-2023Fall/SAIO",
