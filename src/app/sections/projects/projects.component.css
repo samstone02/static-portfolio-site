@@ -1,0 +1,5 @@
+app-projects {
+    display: block;
+    width: var(--main-content-width);
+    margin: auto;
+}

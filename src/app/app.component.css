@@ -8,8 +8,7 @@ app-root {
 .app-root--main {
     color: rgb(254, 252, 251);
     background-color: rgb(18, 16, 14);
-    /* box-shadow: 10px 10px 10px #79C7C5; */
 
-    /* width: 65%; */
-    margin: auto;
+    /* margin: auto; */
+    /* margin: 24px; */
 }

@@ -1,15 +1,20 @@
 app-hero {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color-50-percent);
 
     display: block;
     width: 100vw;
 }
 
-app-hero>h1 {
+app-hero>div {
+    width: var(--main-content-width);
+    margin: auto;
+}
+
+app-hero>div>h1 {
     color: var(--text-color-dark);
 }
 
-app-hero>img {
+app-hero>div>img {
   width: 250px;
   /* height: 250px;   */
 }

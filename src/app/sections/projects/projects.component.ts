@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { ProjectSummaryComponent } from '../../content/project-summary/project-summary.component';
 
 @Component({
@@ -6,7 +6,8 @@ import { ProjectSummaryComponent } from '../../content/project-summary/project-s
   standalone: true,
   imports: [ProjectSummaryComponent],
   templateUrl: './projects.component.html',
-  styleUrl: './projects.component.css'
+  styleUrl: './projects.component.css',
+  encapsulation: ViewEncapsulation.None
 })
 export class ProjectsComponent {
 

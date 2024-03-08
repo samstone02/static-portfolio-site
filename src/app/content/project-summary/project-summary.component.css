@@ -1,0 +1,75 @@
+app-project-summary {
+    background-color: var(--secondary-color-10-percent);
+    box-shadow:
+        10px 10px 25px var(--quaternary-color-10-percent),
+        -10px -10px 25px var(--tertiary-color-10-percent);;
+    border-radius: 15px;
+
+    display: block;
+    position: static;
+    margin-top: 32px;
+    margin-bottom: 64px;
+    padding: 24px;
+}
+
+.app-project-summary--header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.app-project-summary--header--top {
+    /* max-width: 40%; */
+}
+
+.app-project-summary--header--title-and-company {
+    display: flex;
+    align-items: baseline;
+}
+
+.app-project-summary--header--title-and-company--company {
+    display: flex;
+    align-items: baseline;
+    padding-left: 12px;
+    padding-right: 0px;
+    color: var(--tertiary-color);
+}
+
+.app-project-summary--header--title-and-company--company>span {
+    color: var(--text-color-light-60-percent);
+}
+
+.app-project-summary--header--title-and-company--company--commat {
+    color: var(--tertiary-color);
+}
+
+.app-project-summary--header--skills {
+    color: var(--tertiary-color);
+    /* max-width: 50%; */
+    direction: rtl;
+}
+
+.app-project-summary--header--skills>span {
+    color: var(--tertiary-color);
+}
+
+.app-project-summary--header--skills>span>span {
+    color: var(--text-color-light-60-percent);
+    
+    margin-left: 0.15em;
+    margin-right: 0.15em;
+}
+
+.app-project-summary--header--when {
+    color: var(--text-color-light-60-percent);
+}
+
+.app-project-summary--description {
+    color: var(--text-color-light-90-percent);
+
+    padding-top: 24px;
+}
+
+.app-project-summary--link {
+    padding-top: 12px;
+}
