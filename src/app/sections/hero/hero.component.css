@@ -1,0 +1,15 @@
+app-hero {
+    background-color: var(--secondary-color);
+
+    display: block;
+    width: 100vw;
+}
+
+app-hero>h1 {
+    color: var(--text-color-dark);
+}
+
+app-hero>img {
+  width: 250px;
+  /* height: 250px;   */
+}
