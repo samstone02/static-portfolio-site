@@ -15,15 +15,26 @@ app-hero>div {
 
 .app-hero--left {
     width: 60%;
-    padding-top: 5em;
+    padding-top: 8em;
+    /* vertical-align: center; */
 }
 
 .app-hero--title {
     color: var(--text-color-dark);
+
+    /* padding-bottom: 16px; */
+    margin-top: -30px;
+}
+
+.app-hero--title--emphasis {
+    color: var(--secondary-color);
 }
 
 .app-hero--about {
     color: var(--text-color-dark);
+
+    width: 80%;
+    padding-top: 32px;
 }
 
 .app-hero--right {
