@@ -12,7 +12,7 @@ import { Component, Input, ViewEncapsulation, input } from '@angular/core';
 export class ProjectSummaryComponent {
   @Input('title') title: string = '';
   @Input('company') company: string = '';
-  @Input('skills') skills: string[]= [];
+  @Input('skills') skills: string[] = [];
   @Input('when') when: string = '';
   @Input('project_link') project_link: string = '';
   @Input('description') description: string = '';
