@@ -1,4 +1,4 @@
-app-hero {
+.app-hero {
     background-color: var(--text-color-light);
 
     display: block;
@@ -6,7 +6,7 @@ app-hero {
     height: 80vh;
 }
 
-app-hero>div {
+.app-hero>div {
     display: flex;
     flex-direction: row;
     width: var(--main-content-width);

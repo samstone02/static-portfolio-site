@@ -1,0 +1,12 @@
+.app-work-experience {
+    background-color: var(--primary-color);
+    color: var(--text-color-light);
+
+    display: block;
+}
+
+.app-work-experience>div {
+    display: block;
+    width: var(--main-content-width);
+    margin: auto;
+}
