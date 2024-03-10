@@ -10,3 +10,16 @@
     width: var(--main-content-width);
     margin: auto;
 }
+
+.app-work-experience--summaries {
+    display: flex;
+    gap: 32px;
+}
+
+.app-work-experience--summaries--summary {
+
+}
+
+.app-work-experience--summaries--summary--header {
+    display: flex;
+}

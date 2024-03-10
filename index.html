@@ -13,6 +13,7 @@
   <link rel="stylesheet" type="text/css" href="assets/styles/work-experience.css">
   <link rel="stylesheet" type="text/css" href="assets/styles/education.css">
   <link rel="stylesheet" type="text/css" href="assets/styles/projects.css">
+  <link rel="stylesheet" type="text/css" href="assets/styles/call-to-action.css">
 </head>
 <body>
   <div class="app-root">
@@ -22,6 +23,10 @@
         <div class="app-hero--left">
             <h1 class="app-hero--title">Stone.</h1>
             <h1 class="app-hero--title"><span class="app-hero--title--emphasis">Sam</span> Stone.</h1>
+
+            <!-- Remove when complete! -->
+            <p style="color:var(--secondary-color)"> Pardon the dust! This site is under construction. </p>
+
             <p class="app-hero--about">Welcome! I'm Sam, a fullstack software developer with a passion for web and game development. Please take a look around!</p>
         </div>
         <div class="app-hero--right">
@@ -40,17 +45,19 @@
     <div class="app-work-experience">
       <div>
         <h2>Professional Experience</h2>
-        <div>
+        <div class="app-work-experience--summaries">
 
-            <div class="app-work-experience-summary">
+            <div class="app-work-experience--summaries--summary">
               <h3>Back End Developer / Intern</h3>
-              <h3>Little Caesars</h3>
-              <h3>Detroit, MI</h3>
-              <h3>May 2023 - Present</h3>
+              <div class="app-work-experience--summaries--summary--header">
+                <h4>Little Caesars</h4>
+                <p>Detroit, MI</p>
+                <p>May 2023 - Present</p>
+              </div>
               <p>As an intern on the Web Services team, I contributed to the development of Little Caesars global online ordering back end which is built within the C#/.NET environment. I was originally assigned to the \"Favorite Order\" project along with other interns where I completed the back end's RESTful API ahead of schedule. Now a part-time developer, I have contributed to the maintenance and implementation of new features, migrated legacy code, unraveled annoying bugs, and written unit tests.</p>
             </div>
 
-            <div class="app-work-experience-summary">
+            <div class="app-work-experience--summaries--summary">
               <h3>Teacher's Assistant</h3>
               <h3>Eastern Michigan University</h3>
               <h3>Ypsilanti, MI</h3>
@@ -196,7 +203,11 @@
     </div>
 
     <div class="app-call-to-action">
-      <a href="mailto: mailto:samuelrystone@gmail.com?subject=Get In Touch&body=Hello Sam! I was SOOO impressed with your portfolio website... "><h2>Contact</h2></a>
+      <div>
+        <a href="mailto: mailto:samuelrystone@gmail.com?subject=Get In Touch&body=Hello Sam! I was SOOO impressed with your portfolio website... ">
+          <h2 class="app-call-to-action--contact">Contact</h2>
+        </a>
+      </div>
     </div>
 
   </div>
