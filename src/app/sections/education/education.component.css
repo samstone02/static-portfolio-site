@@ -1,0 +1,26 @@
+app-education {
+    background-color: var(--text-color-light);
+
+    display: block;
+}
+
+app-education>div {
+    background-color: var(--text-color-light);
+    color: var(--text-color-dark);
+
+    display: block;
+    position: relative;
+    width: var(--main-content-width);
+    margin: auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+app-education>div>h2 {
+    color: inherit;
+    padding-bottom: 32px;
+}
+
+app-education>div>p {
+    color: inherit;
+}

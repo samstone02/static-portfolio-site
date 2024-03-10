@@ -1,0 +1,11 @@
+app-work-experience {
+    display: block;
+}
+
+app-work-experience>div {
+    background-color: aqua;
+
+    display: block;
+    width: var(--main-content-width);
+    margin: auto;
+}
