@@ -38,12 +38,18 @@
     min-width: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 h1 {
     font-size: 7em;
+    letter-spacing: -2px;
 }
 
 h2 {
     font-size: 3.5em;
+    padding-bottom: 32px;
 }
 
 h3 {
@@ -67,4 +73,14 @@ a {
 
 a:active {
     text-decoration: none;
+}
+
+.content-section {
+    display: block;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.content-section-header {
+    padding-bottom: 32px;
 }

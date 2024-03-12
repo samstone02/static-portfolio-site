@@ -1,7 +1,5 @@
 .app-education {
     background-color: var(--text-color-light);
-
-    display: block;
 }
 
 .app-education>div {
@@ -18,7 +16,6 @@
 
 .app-education>div>h2 {
     color: inherit;
-    padding-bottom: 32px;
 }
 
 .app-education>div>p {

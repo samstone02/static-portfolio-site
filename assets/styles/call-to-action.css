@@ -5,8 +5,6 @@
 .app-call-to-action>div {
     width: var(--main-content-width);
     margin: auto;
-    padding-top: 64px;
-    padding-bottom: 64px;
 }
 
 .app-call-to-action--contact {

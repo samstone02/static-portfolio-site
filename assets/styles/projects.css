@@ -1,21 +1,19 @@
 .app-projects {
     background-color: var(--primary-color);
     color: var(--text-color-light);
-
-    display: block;
-    padding-top: 64px;
-    padding-bottom: 64px;
 }
 
 .app-projects>div {
     display: block;
     width: var(--main-content-width);
     margin: auto;
-    margin-top: 64px;
 }
 
-.app-projects>div>h2 {
-    padding-bottom: 16px;
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 64px;
 }
 
 .app-project-summary {
@@ -27,9 +25,9 @@
 
     display: block;
     position: static;
-    margin-top: 32px;
-    margin-bottom: 64px;
-    padding: 24px;
+    /* margin-top: 32px; */
+    /* margin-bottom: 64px; */
+    padding: 24px 48px;
 }
 
 .app-project-summary--header {
@@ -84,12 +82,37 @@
     color: var(--text-color-light-60-percent);
 }
 
-.app-project-summary--description {
-    color: var(--text-color-light-90-percent);
+.app-project-summary--main {
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
 
+
+.app-project-summary--main-2x1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 12px;
     padding-top: 24px;
 }
 
+.app-project-summary--description-and-link {
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app-project-summary--description {
+    color: var(--text-color-light-90-percent);
+}
+
 .app-project-summary--link {
-    padding-top: 12px;
+    /* padding-top: 12px; */
+}
+
+.app-project-summary--image {
+    box-shadow: 10px 10px 10px var(--secondary-color-20-percent);
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
 }
