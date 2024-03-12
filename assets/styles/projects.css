@@ -106,13 +106,9 @@
     color: var(--text-color-light-90-percent);
 }
 
-.app-project-summary--link {
-    /* padding-top: 12px; */
-}
-
-.app-project-summary--image {
-    box-shadow: 10px 10px 10px var(--secondary-color-20-percent);
+/* .app-project-summary--image-carousel {
+    box-shadow: 10px 10px 10px var(--tertiary-color-20-percent);
     border-radius: 10px;
     margin: auto;
     width: 100%;
-}
+} */

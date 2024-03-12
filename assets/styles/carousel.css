@@ -1,0 +1,44 @@
+.carousel {
+    overflow: hidden;
+    position: relative;
+
+    box-shadow: 10px 10px 10px var(--tertiary-color-20-percent);
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+}
+
+.carousel-images {
+    margin: auto;
+    display: grid;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-images>img {
+    width: 100%;
+}
+
+.carousel-button-left, .carousel-button-right {
+    background-color: var(--secondary-color-80-percent);
+    box-shadow: 4px 4px 10px var(--quaternary-color-40-percent);
+    border: none;
+    border-radius: 100px;
+
+    font-family: 'HammerSmith One';
+
+    width: 24px;
+    height: 24px;
+    /* padding: 16px; */
+    position: absolute;
+    top: calc(50% - 10px);
+}
+
+.carousel-button-left {
+    left: 0px;
+}
+
+.carousel-button-right {
+    right: 0px;
+}

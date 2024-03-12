@@ -14,6 +14,7 @@
   <link rel="stylesheet" type="text/css" href="assets/styles/education.css">
   <link rel="stylesheet" type="text/css" href="assets/styles/projects.css">
   <link rel="stylesheet" type="text/css" href="assets/styles/call-to-action.css">
+  <link rel="stylesheet" type="text/css" href="assets/styles/carousel.css">
 </head>
 <body>
   <div class="app-root">
@@ -151,7 +152,14 @@
                     <a href="https://github.com/COSC481W-2023Fall/SAIO" target="_blank">https://github.com/COSC481W-2023Fall/SAIO</a>
                   </div>  
                 </div>
-                <img class="app-project-summary--image" src="/assets/images/saio.png" alt="The home page for SAIO. Dark mode of course.">
+                <div class="app-project-summary--image-carousel carousel">
+                  <button class="carousel-button-left">&lt;</button>
+                  <div class="carousel-images">
+                    <img class="app-project-summary--image" src="/assets/images/saio/home_light.png" alt="The home page for SAIO. Dark mode of course.">
+                    <img class="app-project-summary--image" src="/assets/images/saio/home_dark.png" alt="The home page for SAIO in light mode. Ewwwwwwwww... Gross!">
+                  </div>
+                  <button class="carousel-button-right">&gt;</button>
+                </div>
               </main>  
             </div>
           </div>
@@ -183,7 +191,16 @@
                     <a href="https://legacy.curseforge.com/minecraft/mc-mods/samss-musket-mod" target="_blank">https://legacy.curseforge.com/minecraft/mc-mods/samss-musket-mod</a>
                   </div> 
                 </div>
-                <img class="app-project-summary--image" src="/assets/images/musket_mod.png" alt="My skeleton pal (with a gun).">
+                <div class="app-project-summary--image-carousel carousel">
+                  <button class="carousel-button-left">&lt;</button>
+                  <div class="carousel-images">
+                    <img src="/assets/images/musket_mod/selfie_with_skeleton.png" alt="My skeleton pal (with a gun).">
+                    <!-- <img class="app-project-summary--image" src="/assets/images/saio.png" alt="The home page for SAIO. Dark mode of course."> -->
+                    <!-- <img src="/assets/images/musket_mod/shooting_a_friend.png" alt="My skeleton pal (with a gun)."> -->
+                    <!-- <img src="/assets/images/musket_mod/gun_tunneler_minigame.png" alt="My skeleton pal (with a gun)."> -->
+                  </div>
+                  <button class="carousel-button-right">&gt;</button>
+                </div>
               </main>   
             </div>
           </div>
@@ -228,5 +245,7 @@
     </div>
 
   </div>
+
+  <script src="/assets/scripts/carousel.js"></script>
 </body>
 </html>
