@@ -1,12 +1,89 @@
 .app-call-to-action {
     background-color: var(--text-color-light);
+    height: 70vh;
 }
 
 .app-call-to-action>div {
     width: var(--main-content-width);
     margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 12px;
+    padding-top: 24px;
 }
 
-.app-call-to-action--contact {
+.app-call-to-action--left {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.app-call-to-action--right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+
+.app-call-to-action--phrase {
+    color: var(--text-color-dark);
+}
+
+.app-call-to-action--p {
+    color: var(--text-color-dark);
+}
+
+.app-call-to-action--headshot-wrapper {
+    box-shadow:
+        10px 10px 25px var(--secondary-color-40-percent),
+        -10px -10px 25px var(--tertiary-color-40-percent);
+        
+    overflow: hidden;
+    width: 256px;
+    height: 256px;
+    border-radius: 1000px;
+}
+
+
+.app-call-to-action--headshot {
+    width: 256px;
+    transform: translateY(-3%);
+    /* height: 256px; */
+}
+
+.app-call-to-action--contact-button {
+    /* color: var(--text-color-light); */
+    background-color: var(--secondary-color-60-percent);
+    box-shadow:
+        10px 10px 25px var(--tertiary-color-40-percent),
+        -10px -10px 25px var(--quaternary-color-40-percent);
+    border-radius: 15px;
+    transition:
+        box-shadow 0.15s ease-in,
+        color 0.15s ease-in,
+        background-color 0.15s ease-in;
+
+    display: grid;
+    align-items: center;
+    padding: 16px 48px;
+    padding-bottom: 0px;
+}
+
+.app-call-to-action--contact-button>h2>a {
+    color: var(--text-color-light);
+}
+
+.app-call-to-action--contact-button:hover {
+    /* color: var(--text-color-dark); */
+    background-color: var(--quaternary-color-60-percent);
+    box-shadow:
+        10px 10px 25px var(--secondary-color-40-percent),
+        -10px -10px 25px var(--tertiary-color-40-percent );
+}
+
+.app-call-to-action--contact-button:hover>h2>a {
     color: var(--text-color-dark);
 }
